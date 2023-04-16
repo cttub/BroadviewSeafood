@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './Pages/Styles/top.css';
-
+import Fade from 'react-reveal/Fade';
 import location from '../Assets/location.svg';
 import phone from '../Assets/Phone.svg';
 class TopBar extends Component {
@@ -11,6 +11,7 @@ class TopBar extends Component {
     render() { 
         return (
             <div id='topbar'>
+                <Fade top>
                 <div className='location'>
                     <img src ={location}/>
                     <a target = "_blank" href="https://www.google.com/maps/dir//1468+N+Broad+St,+New+Orleans,+LA+70119">1468 N Broad St, New Orleans, LA 70119</a>
@@ -23,7 +24,7 @@ class TopBar extends Component {
                     </button>
                 </div>
                 
-
+                </Fade>
             </div>
         );
     }

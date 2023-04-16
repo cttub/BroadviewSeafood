@@ -18,17 +18,22 @@ import chicken from './Assets/Images/chicken.jpg';
 import professional from './Assets/Images/professional-plate.png';
 import shrimp from './Assets/Images/shrimp.jpg';
 import close from './Assets/Images/crawfish-closeup.jpg';
-import "./media.css";
 
+import plateOne from './Assets/Images/plate.png';
+import "./media.css";
+import CarouselComponet from './Components/CarouselComponent';
 function App() {
     const images = [cornPlate, crawfishBin, goodFood, gumbo, frontDesk, turkey];
+    const imageTwo =[poboy, chicken, professional, shrimp, close];
   return (
     <div className="App">
         <LazyLoad>
         <div className='d-sm-none d-md-none'><TopBar/></div>
         <div className='d-lg-none'><MobileTop/></div>
         <Landing/>
- 
+        <CarouselComponet 
+        array = {images}/>
+        <Fade right><img className='plateOne' src = {plateOne}/></Fade>
         </LazyLoad>
     </div>
   );

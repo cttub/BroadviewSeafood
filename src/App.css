@@ -103,17 +103,24 @@ button:active, .red-button:active {
     object-fit: cover;
   }
 }
-.plateOne{
+.plateOne, .plateTwo{
   position: absolute;
-  width: 460px;
+ 
+}
+.plateOne{
   top: 300px;
   right: 0;
-  transition: ease-in-out 1s;
-  cursor: pointer;
+  width: 460px;
+}
+.plateTwo{
+  top: 1600px;
+  left: 0;
+  width: 500px;
+  
 }
 
 @media only screen and (max-width: 1071px){
-  .plateOne{
+  .plateOne, .plateTwo{
     display: none;
   
   }

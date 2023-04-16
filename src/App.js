@@ -20,6 +20,7 @@ import shrimp from './Assets/Images/shrimp.jpg';
 import close from './Assets/Images/crawfish-closeup.jpg';
 
 import plateOne from './Assets/Images/plate.png';
+import plateTwo from './Assets/Images/plate2.png';
 import "./media.css";
 import CarouselComponet from './Components/CarouselComponent';
 
@@ -37,6 +38,10 @@ function App() {
         array = {images}/>
         <Fade right><img className='plateOne' src = {plateOne}/></Fade>
         <Explore/>
+        <CarouselComponet 
+        array = {imageTwo}/>
+        <Fade right><img className='plateOne' src = {plateOne}/></Fade>
+        <Fade left><img className='plateTwo' src = {plateTwo}/></Fade>
         </LazyLoad>
     </div>
   );

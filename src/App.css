@@ -1,38 +1,92 @@
-.App {
-  text-align: center;
-}
+@import url('https://fonts.googleapis.com/css2?family=Amiko&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@200&display=swap');
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+body{
+  background-color: #120F0F;
   color: white;
+  overflow-x: clip;
+}
+h1{
+  font-family: 'Amiko';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 60px;
+  line-height: 107px;
+}
+p, h2{
+  font-family: 'IBM Plex Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 52px;
+}
+h2{
+  font-size: 50px;
+}
+p{
+  font-size: 40px;
+}
+h3{
+  font-family: 'Amiko';
+  font-size: 25px;
+}
+a{
+  font-family: 'Amiko';
+  font-size: 25px;
+  text-decoration: none;
+  color: white;
+  white-space: nowrap;
+}
+a:hover{
+  text-decoration: underline;
+}
+button{
+  font-family: 'Amiko';
+  padding: 10px 20px 10px 20px;
+  background: linear-gradient(180deg, #FFFFFF 0%, #B0B0B0 100%);
+  border-radius: 8px; 
+  font-size: 25px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out, background-color 0.2s ease-in-out;
+}
+.red-button {
+  color: white;
+  background: linear-gradient(180deg, #CF2929 0%, rgba(207, 41, 41, 0.55) 100%), #000000;
+  padding: 10px 20px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out, background-color 0.2s ease-in-out;
+}
+button, .red-button:hover {
+  transform: translateY(-3px);
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.3);
 }
 
-.App-link {
-  color: #61dafb;
+button:active, .red-button:active {
+  transform: translateY(1px);
+  box-shadow: none;
+}
+.slider {
+  overflow: hidden;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.slider-wrapper {
+  display: flex;
+  transition: transform ease-out 0.45s;
+}
+
+.slide {
+  flex: 0 0 25%; 
+  height: 200px;
+  position: relative;
+  overflow: hidden;
+}
+
+.slide img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; 
 }

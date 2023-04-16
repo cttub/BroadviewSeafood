@@ -92,7 +92,7 @@ button:active, .red-button:active {
   object-fit: cover; 
 }
 .carousel-image {
-  width: 100%;
+  width: 96%;
   height: 300px;
   object-fit: cover;
 }

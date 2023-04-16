@@ -22,6 +22,8 @@ import close from './Assets/Images/crawfish-closeup.jpg';
 import plateOne from './Assets/Images/plate.png';
 import "./media.css";
 import CarouselComponet from './Components/CarouselComponent';
+
+import Explore from './Components/Pages/Explore';
 function App() {
     const images = [cornPlate, crawfishBin, goodFood, gumbo, frontDesk, turkey];
     const imageTwo =[poboy, chicken, professional, shrimp, close];
@@ -34,6 +36,7 @@ function App() {
         <CarouselComponet 
         array = {images}/>
         <Fade right><img className='plateOne' src = {plateOne}/></Fade>
+        <Explore/>
         </LazyLoad>
     </div>
   );

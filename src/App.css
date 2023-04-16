@@ -36,6 +36,7 @@ a{
   text-decoration: none;
   color: white;
   white-space: nowrap;
+  transition: ease-in-out 2s;
 }
 a:hover{
   text-decoration: underline;
@@ -98,7 +99,7 @@ button:active, .red-button:active {
 @media only screen and (max-width: 767px){
   .carousel-image {
     width: 100%;
-    height: 100px;
+    height: 200px;
     object-fit: cover;
   }
 }

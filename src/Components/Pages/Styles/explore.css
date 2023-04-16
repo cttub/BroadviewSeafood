@@ -1,0 +1,31 @@
+#explore{
+    height: 100vh;
+    background:linear-gradient(0deg, rgba(0, 0, 0, 0.61), rgba(0, 0, 0, 0.61)), url("../../../Assets/Images/craw-bg.jpg");
+    background-position: center;
+}
+.store{
+    background: url("../../../Assets/Images/street.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+.explore-info{
+    padding-top: 200px;
+    padding-left: 100px;
+}
+@media only screen and (max-width: 1351px){
+    .store{
+        display: none;
+    }
+    #explore{
+        height: auto;
+    }
+}
+
+  .table-font{
+    margin: 0;
+    margin-right: 50px;
+    margin-bottom: 30px;
+    font-size: 35px;
+  }
+  

@@ -17,7 +17,7 @@ class Landing extends Component {
             <div id='landing'>
                 
                 <h1 className='d-sm-none d-md-none'>Broadview Seafood</h1>
-                <a  className='d-lg-none' style = {{textDecoration: "none"}}  target = "_blank" href="https://www.google.com/maps/dir//1468+N+Broad+St,+New+Orleans,+LA+70119"><h3 style = {{fontSize: "30px", borderBottom: "solid 1px"}}><span><img style = {{width: "20px", marginRight: "10px"}} src = {location}/></span>Broadview Seafood</h3></a>
+                <a className='d-lg-none' style = {{textDecoration: "none", margin: "auto"}}  target = "_blank" href="https://www.google.com/maps/dir//1468+N+Broad+St,+New+Orleans,+LA+70119"><h3 style = {{fontSize: "30px", borderBottom: "solid 1px", textAlign: "center", alignSelf: "center"}}><span><img style = {{width: "20px", marginRight: "10px"}} src = {location}/></span>Broadview Seafood</h3></a>
                 
                 <p>Get hooked on the taste of New Orleans</p>
 

@@ -38,8 +38,10 @@ function App() {
         array = {images}/>
         <Fade right><img className='plateOne' src = {plateOne}/></Fade>
         <Explore/>
+        <div className='d-sm-none'>
         <CarouselComponet 
         array = {imageTwo}/>
+        </div>
         <Fade right><img className='plateOne' src = {plateOne}/></Fade>
         <Fade left><img className='plateTwo' src = {plateTwo}/></Fade>
         </LazyLoad>

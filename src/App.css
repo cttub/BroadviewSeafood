@@ -26,6 +26,9 @@ h2{
 p{
   font-size: 40px;
 }
+.smallText{
+  font-size: 30px;
+}
 h3{
   font-family: 'Amiko';
   font-size: 25px;
@@ -125,3 +128,8 @@ button:active, .red-button:active {
   
   }
 }
+.BrainhubCarousel__arrows{
+  background: #CF2929 !important;
+  margin: 20px;
+}
+

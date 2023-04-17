@@ -101,6 +101,7 @@ function App() {
         <Fade left><img className='plateTwo' src = {plateTwo}/></Fade>
         <div className='reviews-carousel'>
         <ReviewsCarousel reviews={reviewData} />
+        
        </div>
 
       

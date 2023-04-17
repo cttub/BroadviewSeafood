@@ -107,6 +107,7 @@ button:active, .red-button:active {
   }
 }
 .plateOne, .plateTwo{
+  z-index: 3;
   position: absolute;
  
 }

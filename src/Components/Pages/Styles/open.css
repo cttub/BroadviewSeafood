@@ -1,0 +1,22 @@
+#open {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.83), rgba(0, 0, 0, 0.83)), url("../../../Assets/Images/front-desk.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#open > .text{
+    border-top: white solid;
+    border-bottom: white solid;
+    width: 80%;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding: 30px;
+}
+.text > button{
+    padding-right: 50px;
+    padding-left: 50px;
+}

@@ -26,7 +26,8 @@ import CarouselComponet from './Components/CarouselComponent';
 import ReviewsCarousel from './Components/ReviewsCarousel';
 
 import Explore from './Components/Pages/Explore';
-import Reviews from './Components/Reviews';
+import Open from './Components/Pages/Open';
+import Footer from './Components/Pages/Footer';
 
 import yelp from './Assets/yelp.png';
 import uber from './Assets/uber_white.png';
@@ -101,6 +102,8 @@ function App() {
         <Fade left><img className='plateTwo' src = {plateTwo}/></Fade>
         <div className='reviews-carousel'>
         <ReviewsCarousel reviews={reviewData} />
+        <Open/>
+        <Footer/>
         
        </div>
 

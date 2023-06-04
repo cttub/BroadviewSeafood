@@ -14,7 +14,7 @@ class Footer extends Component {
                     <br></br>
                     <button className='footer-text red-button phone-btn' onClick={this.handleClick}>(504) 944-3001</button>
                 </div>
-                <a target='_blank' href = "https://www.refinedreach.net/" className='watermark' style={{fontSize: "20px"}}>Website create by Refined Reach</a>
+                <a target='_blank' href = "https://markitfly.com/" className='watermark' style={{fontSize: "20px"}}>Website create by Markitfly Media</a>
             </div>
         );
     }

@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/static/css/main.8d571714.css",
+    "main.js": "/static/js/main.d582c625.js",
+    "static/js/787.18a20b00.chunk.js": "/static/js/787.18a20b00.chunk.js",
+    "static/media/front-desk.jpg": "/static/media/front-desk.b74cf4cc702c1e3c9306.jpg",
+    "static/media/street.jpg": "/static/media/street.faf1f5e55b35363f9a7c.jpg",
+    "static/media/professional-plate.png": "/static/media/professional-plate.f20197d2b73406fa9f6e.png",
+    "static/media/craw-bg.jpg": "/static/media/craw-bg.9d63aeb021e21023c0fb.jpg",
+    "static/media/crawfish-bin.jpg": "/static/media/crawfish-bin.a862ac8430d34f60a4a9.jpg",
+    "static/media/chicken.jpg": "/static/media/chicken.2a7984623abdc295d3c0.jpg",
+    "static/media/goodFood.jpeg": "/static/media/goodFood.fc0c6a041a60309a7c0e.jpeg",
+    "static/media/crawfish-closeup.jpg": "/static/media/crawfish-closeup.9e44eee82efdb0c1f00b.jpg",
+    "static/media/shrimp.jpg": "/static/media/shrimp.b2b789fae0a518fdeded.jpg",
+    "static/media/plate.png": "/static/media/plate.08c46162c793e9fcbf4a.png",
+    "static/media/plate2.png": "/static/media/plate2.376ac86c34e4e742f87d.png",
+    "static/media/corn-plate.png": "/static/media/corn-plate.05bda6c9813088dcf1fe.png",
+    "static/media/gumbo.png": "/static/media/gumbo.8efa9245de5a504699c7.png",
+    "static/media/turkey.png": "/static/media/turkey.d0508d63f5dfbb4e8f66.png",
+    "static/media/poboy.png": "/static/media/poboy.4abfb74666c27283d921.png",
+    "static/media/yelp.png": "/static/media/yelp.fa3db266687e9721a94b.png",
+    "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "static/media/location.svg": "/static/media/location.727b3c94f10fea96c3772d24beb47833.svg",
+    "index.html": "/index.html",
+    "static/media/Phone.svg": "/static/media/Phone.ba6a6e5d804014ec178ca880e2437dcf.svg",
+    "main.8d571714.css.map": "/static/css/main.8d571714.css.map",
+    "main.d582c625.js.map": "/static/js/main.d582c625.js.map",
+    "787.18a20b00.chunk.js.map": "/static/js/787.18a20b00.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8d571714.css",
+    "static/js/main.d582c625.js"
+  ]
+}
